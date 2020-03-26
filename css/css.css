@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+    min-height: 500px;
+    background-color: whitesmoke;
+}
+#topimg{
+    width: 100%;
+    position: relative;
+}
+#botbox{
+    position: absolute;
+    background-color: whitesmoke;
+    height: 75%;
+    width: 100%;
+    bottom: 0;
+    border-top: solid gray 2px;
+}
+#botboxcon{
+    position: absolute;
+    background-color: whitesmoke;
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    border-top: solid gray 2px;
+}
+#bigtext{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-family: "Courier New", Lucida, serif;
+    font-size: 6vmin;
+    top: 5.5vmin;
+}
+#bigertext{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-family: "Courier New", Lucida, serif;
+    font-size: 6vmin;
+    top: 6.5vmin;
+}
+#smalltext{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-family: "Courier New", Lucida, serif;
+    font-size: 2.5vmin;
+    top: 12vmin;
+}
+.plate{
+    padding: 1vmin;
+    width: 74vmin;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: rgba(255,0,0,0.4);
+    border-radius: 56px;
+}
+.box{
+    width: 30%;
+    height: 83%;
+    margin-top: 2%;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    background: lightskyblue;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    float:left;
+    opacity: 0.75;
+}
+#hpic1{
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 0;
+    bottom: 0;
+    left: -12.31vw;
+    position: relative;
+}
+#hpic2{
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+#hpic3{
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 0;
+    bottom: 0;
+}
+#botbox > div {
+    color: black;
+    display: block;
+}
+.bt{
+    width: 30%;
+    height: 4.3%;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    background: #ef1a5d;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    float: left;
+    text-align: center;
+    font-family: "Courier New", Lucida, serif;
+    font-weight: bold;
+    font-size: 90%;
+    opacity: 0.85;
+    color: black;
+}
+.bt:hover{
+    background: lightcoral;
+}
+.bcontent{
+    padding: 16px;
+    font-size: 3vmin;
+    text-align: center;
+}
+.textpad{
+    padding: 1%;
+    font-size: 1.9vmin;
+}
+#footer{
+    width: 100%;
+    height: 2.5vh;
+    position: fixed;
+    background-color: #ef1a5d;
+    clear: both;
+    bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 2vh;
+    padding-left: 7px;
+}
+.right{
+    float: right;
+    padding-right: 12px;
+}
+#picturepos1{
+    width: 35vmin;
+    height: 35vmin;
+    margin-left: 4.166%;
+    margin-right: 2%;
+    margin-top: 4%;
+    background: #ef1a5d;
+    border-radius: 6px;
+    float: left;
+}
+#pic1{
+    width: 33vmin;
+    height: 33vmin;
+    margin: 1vmin;
+}
+#textpos1{
+    margin-left: 4.166%;
+    margin-right: 3%;
+    margin-top: 4%;
+    font-size: 2.5vmin;
+}
+#validation{
+    z-index: -1;
+    position: relative;
+}
+a:link {
+    color: beige;
+}
+a:visited {
+    color: beige;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: yellow;
+}
